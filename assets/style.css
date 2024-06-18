@@ -267,8 +267,9 @@ input[type="submit"] {
         margin-bottom: 1em;
     }
 
-    #about-me h6,
-    #about-me p {
+    #about-me h3,
+    #about-me p,
+    .about-me__introduction {
         width: 100%;
     }
 }
