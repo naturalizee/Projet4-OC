@@ -4,7 +4,7 @@ body {
     font-family: 'Inter';
 }
 
-.top-header {
+header {
     background-color: white;
     position: sticky;
     top: 0;
@@ -16,22 +16,22 @@ body {
     align-items: center;
 }
 
-.top-header .name {
+header .name {
     font-size: 26px;
 }
 
-.nav ul {
+nav ul {
     display: flex;
     list-style-type: none;
     font-size: 14px;
     margin-bottom: 0;
 }
 
-.nav li {
+nav li {
     padding-inline: 10px;
 }
 
-.nav a {
+nav a {
     text-decoration: none;
     color: #000;
 }
@@ -206,7 +206,7 @@ body {
     z-index: 1;
 }
 
-#contact {
+footer {
     margin: auto;
     background-color: #D8D3A8;
     position: relative;
@@ -214,7 +214,7 @@ body {
     padding-block: 100px;
 }
 
-#contact .container {
+footer .container {
     display: flex;
 }
 
@@ -252,15 +252,13 @@ input[type="submit"] {
     padding: .5em 1em;
 }
 
-/* Suppression du commentaire de la section #gallery inutilisée */
-
 @media all and (max-width: 1180px) {
     .picture {
         flex: 2;
     }
 
     #about,
-    #contact .container {
+    footer .container {
         align-items: center;
     }
 
@@ -320,11 +318,11 @@ input[type="submit"] {
         left: auto;
     }
 
-    #contact .container {
+    footer .container {
         flex-direction: column;
     }
 
-    #contact .picture.right {
+    footer .picture.right {
         margin-top: 1em;
     }
 
@@ -337,18 +335,18 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 650px) {
-    .top-header {
+    header {
         flex-direction: column;
         padding-inline: 0;
     }
 
-    .top-header .nav,
-    .top-header .nav ul {
+    header nav,
+    header nav ul {
         width: 100%;
         padding: 0;
     }
 
-    .top-header .nav li {
+    header nav li {
         flex: 1;
         padding-block: 1em;
         text-align: center;
@@ -368,7 +366,7 @@ input[type="submit"] {
     }
 
     #about,
-    #contact {
+    footer {
         padding-inline: 2em;
         padding-block: 2em;
     }
