@@ -110,7 +110,7 @@ nav a {
 .active-tag,
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    color: #fff !important;
+    color: black !important;
     background-color: #BEB45A !important;
     border-radius: 0 !important;
 }
